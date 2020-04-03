@@ -10,11 +10,11 @@ This repo is for the AsterboyJS project.
 1. Part 1: [https://youtu.be/hacZU523FyM](https://youtu.be/hacZU523FyM "https://youtu.be/hacZU523FyM")
 2. Part 2: [https://youtu.be/xTTuih7P0c0](https://youtu.be/xTTuih7P0c0 "https://youtu.be/xTTuih7P0c0")
 
-And thanks [@Jeff](https://codepen.io/jeffibacache/ "@Jeff") for a cool example.
+And thanks [@Jeff](https://codepen.io/jeffibacache/ "@Jeff") for a cool example
 [https://codepen.io/jeffibacache/pen/bzBsp](https://codepen.io/jeffibacache/pen/bzBsp "https://codepen.io/jeffibacache/pen/bzBsp")
 #### Info
 
-This is not the final version of the game. The code will be updated in the future. 
+This is not the final version of the game. The code will be updated in the future. The game uses [p5.js](https://p5js.org/ "p5.js").
 
 #### Update checklist
 - [x] Ship physics
