@@ -11,7 +11,7 @@ function keyReleased() {
                 ship.setRotation(0.1);
                 break;
             case 13: //key ENTER
-                checkNewGame = false;
+                startNewGame()
                 break;
         }
         e.preventDefault();
@@ -28,7 +28,6 @@ function keyReleased() {
                 ship.setRotation(0);
                 break;
             case 13: //key ENTER
-                checkNewGame = false;
                 break;
         }
         e.preventDefault();

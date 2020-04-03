@@ -1,7 +1,9 @@
-function Star() {
+function Square() {
     this.pos = createVector(random(width), random(height));
-    this.r = 20;
+    this.r = random(30, 60);
     this.vel = p5.Vector.random2D();
+    this.heading = random(-10, 10);
+    this.rotation = random(-0.01, 0.01);
 
     this.update = function() {
         this.pos.add(this.vel);
@@ -12,8 +14,9 @@ function Star() {
         stroke(255);
         strokeWeight(3);
         noFill();
-        translate(this.pos.x - 10, this.pos.y - 10);
-        circle(10, 10, this.r)
+        translate(this.pos.x, this.pos.y);
+        rotate(this.heading + PI / 2);
+        square(0, 0, this.r)
         pop();
     }
 
@@ -31,14 +34,16 @@ function Star() {
 
     this.hits = function(ship) {
         var d = dist(this.pos.x, this.pos.y, ship.pos.x, ship.pos.y);
+
         if (d < ship.r + this.r) {
+            console.log(d);
             return true;
         } else {
             return false;
         }
     }
 
-    this.Explosion = function() {
-
+    this.turn = function() {
+        this.heading += this.rotation;
     }
 }
