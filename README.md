@@ -14,7 +14,10 @@ And thanks [@Jeff](https://codepen.io/jeffibacache/ "@Jeff") for a cool example
 [https://codepen.io/jeffibacache/pen/bzBsp](https://codepen.io/jeffibacache/pen/bzBsp "https://codepen.io/jeffibacache/pen/bzBsp")
 #### Info
 
-This is not the final version of the game. The code will be updated in the future. The game uses [p5.js](https://p5js.org/ "p5.js").
+This is not the final version of the game. The code will be updated in the future. 
+The game uses [p5.js](https://p5js.org/ "p5.js").
+
+[![ESC](https://66.media.tumblr.com/b52ee81bd5d19dd3f2b70c3421dbd674/tumblr_p9yqzrd7v31wqfvrxo1_400.gifv "ESC")](https://66.media.tumblr.com/b52ee81bd5d19dd3f2b70c3421dbd674/tumblr_p9yqzrd7v31wqfvrxo1_400.gifv "ESC")
 
 #### Update checklist
 - [x] Ship physics
