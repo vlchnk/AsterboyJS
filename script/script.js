@@ -1,12 +1,12 @@
-var ship;
-var stars = [];
-var sqaure = [];
-var countStars = 1;
-var timer = 30;
-var checkNewGame = true;
-var countLevel = 1;
-var countSquare = 2;
-var life = true;
+let ship;
+let stars = [];
+let sqaure = [];
+let countStars = 1;
+let timer = 30;
+let checkNewGame = true;
+let countLevel = 1;
+let countSquare = 2;
+let life = true;
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -37,7 +37,7 @@ function draw() {
             stars[i].edges();
             if (stars[i].hits(ship)) {
                 stars.splice(i, 1);
-                var explosion = new Explosion(stars[i]);
+                let explosion = new Explosion(stars[i]);
             }
         }
         for (let i = 0; i < sqaure.length; i++) {
@@ -48,11 +48,11 @@ function draw() {
             if (sqaure[i].hits(ship)) {
                 sqaure.splice(i, 1);
                 life = false;
-                var explosion = new Explosion(sqaure[i]);
+                let explosion = new Explosion(sqaure[i]);
             }
         }
 
-        if (stars.length == 0 && timer > 0 && life) {
+        if (stars.length === 0 && timer > 0 && life) {
             ++countStars;
             timer = 30;
             ++countLevel;
@@ -75,7 +75,7 @@ function draw() {
             text("Level " + countLevel, width / 2, height / 2 + 20);
             fill(255);
         }
-        if (timer == 0 || !life) {
+        if (timer === 0 || !life) {
             text('GAME OVER', width / 2, height / 2);
             text('Press ENTER to start a new game', width / 2, height / 2 + 20);
             fill(255);

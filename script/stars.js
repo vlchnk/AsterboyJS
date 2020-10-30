@@ -30,7 +30,7 @@ function Star() {
     }
 
     this.hits = function(ship) {
-        var d = dist(this.pos.x, this.pos.y, ship.pos.x, ship.pos.y);
+        let d = dist(this.pos.x, this.pos.y, ship.pos.x, ship.pos.y);
         if (d < ship.r + this.r) {
             return true;
         } else {

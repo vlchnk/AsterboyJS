@@ -13,13 +13,13 @@ function Ship() {
     this.update = function() {
         if (this.isBoosting) {
             this.boost();
-        };
+        }
         this.pos.add(this.vel);
         this.vel.mult(0.98);
     }
 
     this.boost = function() {
-        var force = p5.Vector.fromAngle(this.heading);
+        let force = p5.Vector.fromAngle(this.heading);
         force.mult(0.3);
         this.vel.add(force);
     }
