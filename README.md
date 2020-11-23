@@ -3,7 +3,7 @@
 This repo is for the AsterboyJS project.
 
 ### Play the game
-[AsterboyJS](https://volchonok.xyz/AsterboyJS/ "AsterboyJS")
+[AsterboyJS](https://www.volchonok.media/AsterboyJS/ "AsterboyJS")
 
 ### Thanks for the tutorial @CodingTrain
 - [https://github.com/CodingTrain/Asteroids](https://github.com/CodingTrain/Asteroids "https://github.com/CodingTrain/Asteroids")
